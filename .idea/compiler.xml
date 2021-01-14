@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ng-udap-executor-api" />
+        <module name="ng-udap-executor-core" />
+        <module name="ng-udap-executor-plugins" />
+        <module name="ng-udap-executor-test" />
+        <module name="ng-udap-submitter-api" />
+        <module name="ng-udap-submitter-core" />
+        <module name="ng-udap-submitter-test" />
+        <module name="ng-udap-submitters" />
+        <module name="ng-udap-tool" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ng-udap-data-integration" target="1.8" />
+      <module name="ng-udap-executor" target="1.8" />
+      <module name="ng-udap-executor-api" target="1.8" />
+      <module name="ng-udap-executor-component" target="1.8" />
+      <module name="ng-udap-executor-core" target="1.8" />
+      <module name="ng-udap-executor-plugins" target="1.8" />
+      <module name="ng-udap-executor-test" target="1.8" />
+      <module name="ng-udap-submitter" target="1.8" />
+      <module name="ng-udap-submitter-api" target="1.8" />
+      <module name="ng-udap-submitter-core" target="1.8" />
+      <module name="ng-udap-submitter-test" target="1.8" />
+      <module name="ng-udap-submitters" target="1.8" />
+      <module name="ng-udap-tool" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ng-udap-data-integration" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-executor" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-executor-api" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-executor-component" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-executor-core" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-executor-plugins" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-executor-test" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-submitter" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-submitter-api" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-submitter-core" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-submitter-test" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-submitters" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="ng-udap-tool" options="-Xlint:unchecked -Xlint:deprecation" />
+    </option>
+  </component>
+</project>
