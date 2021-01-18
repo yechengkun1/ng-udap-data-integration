@@ -2,7 +2,6 @@ package com.newland.bd.component.common.tuple.record.struct;
 
 import com.newland.bd.component.common.exception.ComponentCommonError;
 import com.newland.bd.component.common.exception.ComponentException;
-import com.newland.bd.component.common.ext.date.dateparser.AutoDateParserUtils;
 import com.newland.bd.component.common.tuple.Column;
 import org.apache.commons.lang3.time.DateFormatUtils;
 
@@ -30,7 +29,7 @@ public class DateColumn implements Column {
      */
     public DateColumn(String column) {
         if (column != null && !column.isEmpty()) {
-            standardValue = AutoDateParserUtils.parseStandardTime(column);
+            standardValue = column;
         }
     }
 
@@ -41,7 +40,7 @@ public class DateColumn implements Column {
     public DateColumn(String column, String format) {
         if (column != null && !column.isEmpty()) {
             if (format == null || format.isEmpty()) {
-                standardValue = AutoDateParserUtils.parseStandardTime(column);
+                standardValue = column;
             } else {
                 try {
                     SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);

@@ -1,6 +1,6 @@
 package com.newland.bd.component.common.ext.collector;
 
-import com.newland.bd.component.common.spi.streamflow.IAckCallBack;
+import com.newland.bd.component.common.spi.IAckCallBack;
 import com.newland.bd.component.common.tuple.batch.BatchData;
 import com.newland.bd.component.common.tuple.batch.BatchDataAttributes;
 import com.newland.bd.component.common.tuple.format.ITupleFormat;

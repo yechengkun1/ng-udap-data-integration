@@ -34,7 +34,11 @@
         <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     </properties>
     <dependencies>
-
+        <dependency>
+            <groupId>com.newland.bd.resource</groupId>
+            <artifactId>nl-bd-resources-interface</artifactId>
+            <version>0.13.0-SNAPSHOT</version>
+        </dependency>
 
         <!-- apache common -->
         <dependency>

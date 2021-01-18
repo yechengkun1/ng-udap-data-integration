@@ -26,7 +26,7 @@
       <module name="ng-udap-executor-plugins" target="1.8" />
       <module name="ng-udap-executor-test" target="1.8" />
       <module name="ng-udap-submitter" target="1.8" />
-      <module name="ng-udap-submitter-api" target="1.8" />
+      <module name="ng-udap-submitter-api" target="1.7" />
       <module name="ng-udap-submitter-core" target="1.8" />
       <module name="ng-udap-submitter-test" target="1.8" />
       <module name="ng-udap-submitters" target="1.8" />

@@ -13,7 +13,6 @@ import java.util.List;
  * //内部支持三种数据格式.
  * 这个对象是一个不可变对象.
  * User: YECK
- * Date: 2019/10/24
  */
 public class RecordTuple implements DataTuple {
 

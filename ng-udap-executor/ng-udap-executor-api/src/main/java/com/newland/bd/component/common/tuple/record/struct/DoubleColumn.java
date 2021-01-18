@@ -7,7 +7,6 @@ import java.math.BigDecimal;
 /**
  * Created with IntelliJ IDEA.
  * User: YECK
- * Date: 2019/11/14
  */
 public class DoubleColumn implements Column {
     //Double 类型在转字符串的时候会带上E,如：10002101-1.0002101E7

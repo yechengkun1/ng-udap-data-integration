@@ -9,7 +9,6 @@ import java.io.Serializable;
 /**
  * 组件实例信息
  * User: YECK
- * Date: 2019/9/26
  */
 public class ComponentInstanceInfo implements Serializable {
 

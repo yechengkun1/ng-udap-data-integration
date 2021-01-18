@@ -5,7 +5,6 @@ import com.newland.bd.component.common.tuple.Column;
 /**
  * Created with IntelliJ IDEA.
  * User: YECK
- * Date: 2019/11/14
  */
 public class LongColumn implements Column {
 

@@ -7,7 +7,6 @@ import com.newland.bd.component.common.tuple.Column;
 /**
  * 二进制字段
  * User: YECK
- * Date: 2019/11/14
  */
 public class BytesColumn implements Column {
     private byte[] values;

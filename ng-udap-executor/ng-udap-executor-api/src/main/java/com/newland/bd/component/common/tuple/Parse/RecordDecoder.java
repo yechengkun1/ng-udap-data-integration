@@ -10,7 +10,7 @@ import com.newland.bd.component.common.tuple.record.struct.StructRecord;
  * 数据编解码.能适配数据格式不一致的问题
  * 框架提供标准的转换实现.  组件可以扩展自己特殊的转换逻辑
  * User: YECK
- * Date: 2019/10/24
+ * Date: 2021/01/18
  */
 public interface RecordDecoder {
 

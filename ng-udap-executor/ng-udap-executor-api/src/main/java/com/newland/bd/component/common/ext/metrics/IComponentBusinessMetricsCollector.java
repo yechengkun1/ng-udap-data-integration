@@ -5,7 +5,7 @@ import com.newland.bd.ngudap.typeenum.BusinessMetricEnum;
 import java.util.Map;
 
 /**
- * \* 组件实例度量信息.是一个蒙面模式的接口, 包含
+ * \* 组件实例度量信息.
  * \* User: YECK
  * \* Date: 2019/11/27
  * \

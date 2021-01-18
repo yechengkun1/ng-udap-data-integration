@@ -1,7 +1,5 @@
 package com.newland.bd.component.common.tuple;
 
-import com.newland.bd.component.common.model.Tuple;
-
 import java.util.List;
 
 /**
