@@ -20,7 +20,7 @@
     <bytecodeTargetLevel>
       <module name="ng-udap-data-integration" target="1.8" />
       <module name="ng-udap-executor" target="1.8" />
-      <module name="ng-udap-executor-api" target="1.8" />
+      <module name="ng-udap-executor-api" target="1.7" />
       <module name="ng-udap-executor-component" target="1.8" />
       <module name="ng-udap-executor-core" target="1.8" />
       <module name="ng-udap-executor-plugins" target="1.8" />
