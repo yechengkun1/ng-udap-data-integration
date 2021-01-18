@@ -4,7 +4,7 @@ package com.newland.bd.component.common.spi.stateful;
  * 有状态的目标组件。
  * 当发生断点续作时，可以回滚到上一次BatchData提交时候的位置
  * User: YECK
- * Date: 2021/1/18
+ *
  */
 public interface IStatefulSink {
 

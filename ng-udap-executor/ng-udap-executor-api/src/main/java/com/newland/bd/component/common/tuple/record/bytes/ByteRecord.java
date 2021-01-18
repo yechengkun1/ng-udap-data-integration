@@ -6,7 +6,7 @@ import com.newland.bd.component.common.tuple.record.RecordType;
 /**
  * 二进制消息对象
  * User: YECK
- * Date: 2021/1/18
+ *
  */
 public class ByteRecord implements IRecord {
     private byte[] bytes;

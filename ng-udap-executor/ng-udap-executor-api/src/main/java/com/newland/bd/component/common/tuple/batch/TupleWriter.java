@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 一个BatchData中记录的集合。
  * User: YECK
- * Date: 2021/1/18
+ *
  */
 public interface TupleWriter {
 

@@ -12,7 +12,7 @@ package com.newland.bd.component.common.tuple.batch;
  * <p>
  * BatchData都创建后，里面的对象就已经固定，下游的插件不能修改其中的属性.
  * User: YECK
- * Date: 2021/1/18
+ *
  */
 public interface BatchData extends Comparable<BatchData> {
     /**

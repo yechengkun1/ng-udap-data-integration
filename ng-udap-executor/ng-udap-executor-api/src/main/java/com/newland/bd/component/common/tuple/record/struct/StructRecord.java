@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 结构化的记录对象
  * User: YECK
- * Date: 2021/1/18
+ *
  */
 public class StructRecord implements IRecord {
 

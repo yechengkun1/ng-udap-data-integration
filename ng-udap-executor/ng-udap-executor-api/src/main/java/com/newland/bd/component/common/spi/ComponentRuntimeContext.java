@@ -2,7 +2,6 @@ package com.newland.bd.component.common.spi;
 
 import com.newland.bd.component.common.ext.collector.WrongDataCollector;
 import com.newland.bd.component.common.ext.event.IEventSender;
-import com.newland.bd.component.common.ext.resource.IConnectionConfing;
 import com.newland.bd.component.common.ext.var.IVarParser;
 import com.newland.bd.component.common.model.ComponentInstanceInfo;
 import com.newland.bd.resources.interfaces.IResourcesConfig;

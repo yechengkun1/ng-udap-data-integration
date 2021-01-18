@@ -9,7 +9,7 @@ import com.newland.bd.component.common.tuple.record.RecordType;
 /**
  * 发送数据对象
  * User: YECK
- * Date: 2021/1/18
+ *
  */
 public interface OutputCollector {
 

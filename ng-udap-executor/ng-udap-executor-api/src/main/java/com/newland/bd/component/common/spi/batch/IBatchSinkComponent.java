@@ -6,7 +6,7 @@ import com.newland.bd.component.common.tuple.batch.BatchData;
 /**
  * 输出组件
  *
- * @author 叶承坤
+ * @author yeck
  */
 public interface IBatchSinkComponent extends IBatchComponent {
 

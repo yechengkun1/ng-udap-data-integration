@@ -6,7 +6,7 @@ import com.newland.bd.component.common.tuple.format.ITupleFormat;
 /**
  * 一个BatchData中记录的集合。
  * User: YECK
- * Date: 2021/1/18
+ *
  */
 public interface TupleReader {
 

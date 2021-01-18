@@ -6,7 +6,7 @@ import com.newland.bd.component.common.tuple.record.RecordType;
 /**
  * 字符串记录对象
  * User: YECK
- * Date: 2021/1/18
+ *
  */
 public class StringRecord implements IRecord {
 
