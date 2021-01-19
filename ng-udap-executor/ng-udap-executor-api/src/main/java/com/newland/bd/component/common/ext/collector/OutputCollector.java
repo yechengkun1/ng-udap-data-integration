@@ -4,12 +4,12 @@ import com.newland.bd.component.common.spi.IAckCallBack;
 import com.newland.bd.component.common.tuple.batch.BatchData;
 import com.newland.bd.component.common.tuple.batch.BatchDataAttributes;
 import com.newland.bd.component.common.tuple.format.ITupleFormat;
+import com.newland.bd.component.common.tuple.parse.RecordDecoder;
 import com.newland.bd.component.common.tuple.record.RecordType;
 
 /**
  * 发送数据对象
  * User: YECK
- *
  */
 public interface OutputCollector {
 
@@ -39,4 +39,20 @@ public interface OutputCollector {
      * @param ackCallBack 当所有下游插件都处理完这批数据后，会执行此回调。 比如下游处理完这个文件数据后，调用此方法进行文件删除
      */
     void submit(BatchData data, IAckCallBack ackCallBack);
+
+    /**
+     * 往BatchData的TupleWriter里完这批数据，提交
+     *
+     * @param data
+     * @param decoder 组件自定义的decoder
+     */
+    void submit(BatchData data, RecordDecoder decoder);
+
+    /**
+     * 往BatchData的TupleWriter里完这批数据，提交
+     *
+     * @param data
+     * @param ackCallBack 当所有下游插件都处理完这批数据后，会执行此回调。 比如下游处理完这个文件数据后，调用此方法进行文件删除
+     */
+    void submit(BatchData data, RecordDecoder decoder, IAckCallBack ackCallBack);
 }
