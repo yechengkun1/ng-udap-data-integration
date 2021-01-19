@@ -18,6 +18,7 @@
         <module>ng-udap-submitter-core</module>
         <module>ng-udap-submitters</module>
         <module>ng-udap-submitter-test</module>
+        <module>ng-udap-submitter-utils</module>
     </modules>
 
 </project>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ng-udap-excutor-utils" />
         <module name="ng-udap-executor-api" />
         <module name="ng-udap-executor-core" />
         <module name="ng-udap-executor-plugins" />
@@ -13,12 +14,13 @@
         <module name="ng-udap-submitter-api" />
         <module name="ng-udap-submitter-core" />
         <module name="ng-udap-submitter-test" />
+        <module name="ng-udap-submitter-utils" />
         <module name="ng-udap-submitters" />
-        <module name="ng-udap-tool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ng-udap-data-integration" target="1.8" />
+      <module name="ng-udap-excutor-utils" target="1.5" />
       <module name="ng-udap-executor" target="1.8" />
       <module name="ng-udap-executor-api" target="1.7" />
       <module name="ng-udap-executor-component" target="1.8" />
@@ -29,6 +31,7 @@
       <module name="ng-udap-submitter-api" target="1.7" />
       <module name="ng-udap-submitter-core" target="1.8" />
       <module name="ng-udap-submitter-test" target="1.8" />
+      <module name="ng-udap-submitter-utils" target="1.5" />
       <module name="ng-udap-submitters" target="1.8" />
       <module name="ng-udap-tool" target="1.8" />
     </bytecodeTargetLevel>

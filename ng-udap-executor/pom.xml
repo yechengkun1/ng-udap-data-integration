@@ -16,6 +16,7 @@
         <module>ng-udap-executor-core</module>
         <module>ng-udap-executor-plugins</module>
         <module>ng-udap-executor-test</module>
+        <module>ng-udap-executor-utils</module>
     </modules>
     <packaging>pom</packaging>
 

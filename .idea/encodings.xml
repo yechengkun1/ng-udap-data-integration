@@ -3,8 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-executor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ng-udap-executor/ng-udap-excutor-tool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ng-udap-executor/ng-udap-excutor-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-executor/ng-udap-executor-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ng-udap-executor/ng-udap-executor-component" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-executor/ng-udap-executor-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-executor/ng-udap-executor-plugins" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-executor/ng-udap-executor-test" charset="UTF-8" />
@@ -12,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/ng-udap-submitter/ng-udap-submitter-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-submitter/ng-udap-submitter-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-submitter/ng-udap-submitter-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ng-udap-submitter/ng-udap-submitter-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-submitter/ng-udap-submitters" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ng-udap-tool" charset="UTF-8" />
   </component>
