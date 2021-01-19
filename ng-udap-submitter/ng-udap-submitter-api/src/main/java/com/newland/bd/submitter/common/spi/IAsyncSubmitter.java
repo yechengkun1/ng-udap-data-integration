@@ -6,6 +6,7 @@ import com.newland.bd.submitter.common.model.TaskResult;
 
 /**
  * 异步提交器，用于常驻式任务的提交动作
+ * 提交器可以实现状态接管，典型的如mr提交器，flink提交器等， 框架提供SubmitterRuntimeContext的ISubmitterStatefuleStorage存储提交器状态
  */
 public interface IAsyncSubmitter {
 
